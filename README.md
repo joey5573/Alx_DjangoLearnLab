@@ -1,9 +1,14 @@
-# Introduction to Django - LibraryProject
+# LibraryProject
 
-This project is part of the **ALX Introduction to Django** curriculum.
+This is a Django project created as part of the **Introduction to Django** tasks.
 
-## Project Setup
+## Project Structure
+- **manage.py**: Command-line utility for Django project management.
+- **settings.py**: Contains project settings and configurations.
+- **urls.py**: URL routing for the project.
+- **wsgi.py / asgi.py**: Entry points for WSGI/ASGI servers.
 
-1. **Install Django**
+## Running the Project
+1. Install dependencies:
    ```bash
    pip install django
